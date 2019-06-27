@@ -17,5 +17,11 @@ pipenv run python manage.py createsuperuser
 pipenv run python manage.py runserver
 ```
 
+After that, I updated the models to include ServicePage, then ran migrations:
+```
+pipenv run python manage.py makemigrations
+pipenv run python manage.py migrate
+```
+
 ## What's next?
 Trying to add in the models from joplin and see if we can figure out any problems.
